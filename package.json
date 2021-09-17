@@ -1,0 +1,34 @@
+{
+  "name": "svelte-xactor",
+  "license": "MIT",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/svelte-xactor.umd.js",
+  "module": "./dist/svelte-xactor.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/svelte-xactor.es.js",
+      "require": "./dist/svelte-xactor.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:demo": "vite build --mode demo",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.11",
+    "@tsconfig/svelte": "^2.0.1",
+    "svelte": "^3.37.0",
+    "svelte-check": "^2.1.0",
+    "svelte-preprocess": "^4.7.2",
+    "tslib": "^2.2.0",
+    "typescript": "^4.3.2",
+    "vite": "^2.5.4",
+    "xactor": "^0.3.1"
+  },
+  "peerDependencies": {
+    "xactor": "^0.3.1"
+  }
+}
