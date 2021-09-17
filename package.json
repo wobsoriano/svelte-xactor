@@ -3,6 +3,9 @@
   "license": "MIT",
   "version": "1.0.0",
   "type": "module",
+  "files": [
+    "dist"
+  ],
   "main": "./dist/svelte-xactor.umd.js",
   "module": "./dist/svelte-xactor.es.js",
   "exports": {
