@@ -3,6 +3,11 @@
   "license": "MIT",
   "version": "1.0.0",
   "type": "module",
+  "keywords": [
+    "svelte",
+    "store",
+    "xactor"
+  ],
   "files": [
     "dist",
     "index.d.ts"
@@ -35,5 +40,10 @@
   },
   "peerDependencies": {
     "xactor": "^0.3.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wobsoriano/svelte-xactor.git"
+  },
+  "homepage": "https://github.com/wobsoriano/svelte-xactor#readme"
 }
