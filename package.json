@@ -4,10 +4,12 @@
   "version": "1.0.0",
   "type": "module",
   "files": [
-    "dist"
+    "dist",
+    "index.d.ts"
   ],
   "main": "./dist/svelte-xactor.umd.js",
   "module": "./dist/svelte-xactor.es.js",
+  "types": "./index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/svelte-xactor.es.js",
